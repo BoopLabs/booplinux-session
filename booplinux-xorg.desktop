@@ -4,4 +4,4 @@ Comment=This Session Logs You into the Boop! Desktop Session Running on the Lega
 Exec=env GNOME_SHELL_SESSION_MODE=boop gnome-session
 TryExec=gnome-session
 Type=Application
-DesktopNames=Boop! Desktop
+DesktopNames=Boop! Desktop on Xorg
