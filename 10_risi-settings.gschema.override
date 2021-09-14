@@ -5,18 +5,18 @@
 ###################
 
 [org.gnome.shell]
-favorite-apps = ['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop',]
+favorite-apps = ['io.github.booplabs.Browser.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Music.desktop', 'org.gnome.Software.desktop',]
 
 # Set this
 # [org.gnome.desktop.background]
-# picture-uri = 'file:///usr/share/backgrounds/warty-final-risi.png'
+# picture-uri = 'file:///usr/share/backgrounds/booplinux-stouff.png'
 
 # Set this
 # [org.gnome.desktop.screensaver]
-# picture-uri = 'file:///usr/share/backgrounds/warty-final-risi.png'
+# picture-uri = 'file:///usr/share/backgrounds/booplinux-stouff.png'
 
 [org.gnome.desktop.session]
-session-name = "risi"
+session-name = "Boop! Desktop"
 
 [org.onboard]
 layout = 'Compact'
@@ -36,45 +36,45 @@ sleep-inactive-ac-timeout = 0
 cursor-theme = "DMZ-White"
 
 # [org.gnome.login-screen]
-# logo='/usr/share/plymouth/risi-logo.png'
+# logo='/usr/share/plymouth/booplinux-logo.png'
 
 ##################################
-# risiOS common session settings #
+# Boop! Linux common session settings #
 ##################################
 
-[org.gnome.desktop.interface:risi]
+[org.gnome.desktop.interface:boop]
 gtk-theme = "Adwaita"
 icon-theme = "Adwaita"
-cursor-theme = "DMZ-White"
+cursor-theme = "Adwaita"
 
-[org.gtk.Settings.FileChooser:risi]
+[org.gtk.Settings.FileChooser:boop]
 sort-directories-first = true
 
-[org.gnome.mutter:risi]
+[org.gnome.mutter:boop]
 attach-modal-dialogs = true
 auto-maximize = true
-edge-tiling = false
+edge-tiling = true
 dynamic-workspaces = true
-workspaces-only-on-primary = false
+workspaces-only-on-primary = true
 focus-change-on-pointer-rest = true
 
-[org.gnome.desktop.peripherals.touchpad:risi]
-tap-to-click = true
+[org.gnome.desktop.peripherals.touchpad:boop]
+tap-to-click = false
 
-[org.gnome.desktop.wm.keybindings:risi]
+[org.gnome.desktop.wm.keybindings:boop]
 show-desktop = ['<Primary><Super>d','<Primary><Alt>d','<Super>d']
 
 [org.gnome.desktop.wm.preferences:risi]
-button-layout = 'appmenu:minimize,close'
+button-layout = 'appmenu:minimize,maximize,close'
 titlebar-font = 'Cantarell Bold 11'
 titlebar-uses-system-font = false
 action-middle-click-titlebar = 'lower'
 
-[org.gnome.eog.ui:risi]
+[org.gnome.eog.ui:boop]
 sidebar = false
 
-[org.gnome.nautilus.desktop:risi]
+[org.gnome.nautilus.desktop:boop]
 home-icon-visible = true
 
-[org.gnome.nautilus.icon-view:risi]
-default-zoom-level = 'small'
+[org.gnome.nautilus.icon-view:boop]
+default-zoom-level = 'medium'
