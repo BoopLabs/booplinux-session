@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Boop! Desktop
-Comment=This Session logs you into the Boop! Desktop Session
-Exec=env GNOME_SHELL_SESSION_MODE=boop gnome-session
-TryExec=gnome-session
-Type=Application
-DesktopNames=Boop! Desktop

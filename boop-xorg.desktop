@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Boop! Desktop on Xorg
+Comment=This Session Logs You into the Boop! Desktop Session Running on the Legacy Xorg Display Server, This Session Should Only Be Used on Nvida Graphics Cards or to Troubleshoot
+Exec=env GNOME_SHELL_SESSION_MODE=boop gnome-session
+TryExec=gnome-session
+Type=Application
+DesktopNames=Boop! Desktop
