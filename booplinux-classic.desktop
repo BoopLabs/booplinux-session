@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Boop! Classic Desktop
+Comment=This session logs you into the Boop! Desktop
+Exec=env GNOME_SHELL_SESSION_MODE=boop gnome-classic-session
+TryExec=gnome-classic-session
+Type=Application
+DesktopNames=Boop! Classic Desktop
