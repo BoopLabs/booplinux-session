@@ -5,7 +5,7 @@ Summary:        Custom Session for Boop! Linux
 
 License:        GPLv3+
 URL:            https://github.com/BoopLabs/booplinux-session
-Source0:        https://github.com/BoopLabs/booplinux-session/.git
+Source0:        https://github.com/BoopLabs/booplinux-session.git
 Provides: 	gnome-session-xsession
 Provides: 	gnome-session-wayland-session
 
