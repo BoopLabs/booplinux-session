@@ -1,5 +1,3 @@
 {
-    "parentMode": "user",
-    "stylesheetName": "booplinux.css",
-    "enabledExtensions": ["noannoyance@daase.net", "appindicatorsupport@rgcjonas.gmail.com", "no-overview@fthx"]
+    "parentMode": "user"
 }
